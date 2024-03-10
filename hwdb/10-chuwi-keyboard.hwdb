@@ -1,0 +1,27 @@
+#    Manufacturer: CHUWI Innovation And Technology(ShenZhen)co.,Ltd
+#    Product Name: UBook X
+#    USB dock keyboard + touchpad  
+#I: Bus=0003 Vendor=1c4f Product=0086 Version=0111
+#N: Name="HS-CH12U-PTP-01-02-0F USB KeyBoard"
+# swap F2-F10 and FnF2-FnF10
+
+evdev:input:b0003v1C4Fp*
+ KEYBOARD_KEY_c00e2=f2
+ KEYBOARD_KEY_c00ea=f3
+ KEYBOARD_KEY_c00e9=f4
+ KEYBOARD_KEY_c0221=f5
+ KEYBOARD_KEY_c0070=f6
+ KEYBOARD_KEY_c006f=f7
+ KEYBOARD_KEY_c00b6=f8
+ KEYBOARD_KEY_c00cd=f9
+ KEYBOARD_KEY_c00b5=f10
+ KEYBOARD_KEY_7003b=mute
+ KEYBOARD_KEY_7003c=volumedown
+ KEYBOARD_KEY_7003d=volumeup
+ KEYBOARD_KEY_7003e=search
+ KEYBOARD_KEY_7003f=brightnessdown
+ KEYBOARD_KEY_70040=brightnessup
+ KEYBOARD_KEY_70041=previoussong
+ KEYBOARD_KEY_70042=playpause
+ KEYBOARD_KEY_70043=nextsong
+ 
